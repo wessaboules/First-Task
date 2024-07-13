@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_1</title>
+        <!-- fontawesome css link  -->
+    <link rel="stylesheet" href="css/all fontawesome.min.css">
+        <!-- animate css link -->
+    <link rel="stylesheet" href="css/animate.min.css">
+        <!-- wow css link -->
+    <link rel="stylesheet" href="css/animate wow.css">
+        <!-- bootstrap css link -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- mdbootstrap css link -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+        <!-- style css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="40"><g fill="none" fill-rule="evenodd"><circle fill="#000" opacity=".201" cx="20" cy="20" r="20"/><path d="M30.98 22.835c1.941 0 3.516 1.604 3.516 3.583 0 1.978-1.575 3.582-3.517 3.582s-3.516-1.604-3.516-3.582c0-1.979 1.574-3.583 3.516-3.583zm21.956 0c1.942 0 3.517 1.604 3.517 3.583 0 1.978-1.575 3.582-3.517 3.582s-3.516-1.604-3.516-3.582c0-1.979 1.574-3.583 3.516-3.583zm-9.143-10.45a1.27 1.27 0 011.819 0l3.715 3.784c4.444-.115 9.7 1.142 13.964 3.753.387.237.624.664.624 1.124 0 3.006-2.126 5.514-4.926 6.05.397-3.698-2.458-6.882-6.053-6.882-3.646 0-6.504 3.264-6.039 6.99h-9.669c.76-1.544.993-2.026 1.337-2.711l.082-.162c.421-.835 1.056-2.07 2.883-5.65 1.68-.023 3.47-.408 5.247-1.403l-2.984-3.04a1.328 1.328 0 010-1.854zm-7.68 1.064c.683-.2 1.395.202 1.592.898l.749 2.652a3.46 3.46 0 01-.247 2.51l-1.733 3.395-.216.424c-1.07-1.89-3.06-3.114-5.279-3.114-3.595 0-6.45 3.184-6.052 6.885-1.832-.347-3.414-1.537-4.278-3.276a1.331 1.331 0 01.117-1.376l.955-1.303-1.325-1.295c-.751-.735-.376-2.024.64-2.231l6.614-1.346.13-.026c.092-.019.145-.03.157-.031.314-.146 1.07-.591 1.07-1.506 0-.734.592-1.327 1.316-1.31.712.016 1.268.662 1.256 1.388a4.11 4.11 0 01-.348 1.611 22.69 22.69 0 014.7 1.146l-.7-2.473a1.314 1.314 0 01.882-1.622z" fill="#19B89D" fill-rule="nonzero"/></g></svg>
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+  
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger"></span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="https://stackoverflow.com/" target="_blank">Web Development Articles</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://medium.com/@Medium" target="_black">Penetration Testing Articles</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="https://cve.mitre.org/" target="_black">CVEs Articles</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Login</a>
+            </li>
+            <li>
+                <a class="dropdown-item" href="#">Signup</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+
+<!-- start carousel section  -->
+<div class="container mt-3 mb-3">
+    <div class="row">
+        <div class="col-md-12">
+            <div id="carouselBasicExample" class="carousel mine slide-fade" data-mdb-ride="carousel" data-mdb-carousel-init>
+                <div class="carousel-indicators">
+                    <button 
+                        type="button" 
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="0"
+                        class="active"
+                        aria-current="true"
+                        aria-label="1"
+                    ></button>
+                    <button
+                        type="button" 
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="1"
+                        class="active"
+                        aria-current="true"
+                        aria-label="2"
+                    ></button>
+                    <button
+                        type="button" 
+                        data-mdb-target="#carouselBasicExample"
+                        data-mdb-slide-to="2"
+                        class="active"
+                        aria-current="true"
+                        aria-label="3"
+                    ></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/66.jpg" alt="Blandscape" calss="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First View</h5>
+                            <p>This view is common in Indian movies</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/77.jpg" alt="Blandscape" calss="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second View</h5>
+                            <p>This view is common in American movies</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Iw471VJ.jpg" alt="Blandscape" calss="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third View</h5>
+                            <p>This view is common in Microsoft backgrounds</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- end carousel section  -->
+
+<!-- start footer section  -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-dark footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="https://www.linkedin.com/in/wessa-boules-25a89a206/" class="me-4 text-reset" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/wessaboules?tab=repositories" class="me-4 text-reset" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>ElPentester
+            </h6>
+            <p>
+              Here you can learn more about Web Development and Web Penetration Testing.  
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Web Development Technologies
+            </h6>
+            <p>
+              <a href="https://angular.dev/" class="text-reset" target="_black">Angular</a>
+            </p>
+            <p>
+              <a href="https://react.dev/" class="text-reset" target="_blank">React</a>
+            </p>
+            <p>
+              <a href="https://vuejs.org/" class="text-reset" target="_blank">Vue</a>
+            </p>
+            <p>
+              <a href="https://laravel.com/" class="text-reset" target="_blank">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Penetration Testing Resourses
+            </h6>
+            <p>
+              <a href="https://learningnetwork.cisco.com/s/foryou/enterprise?utm_campaign=ciscou&utm_source=sem-p&utm_medium=cu-sem&gad_source=1&gclid=CjwKCAjwy8i0BhAkEiwAdFaeGMCpTnUPnoLZeMeyvkt8p8AfVXh7kKnzy5jQRLzuP9IQTjizVkxGnRoCDK8QAvD_BwE&gclsrc=aw.ds" class="text-reset" target="_blank">Netacad</a>
+            </p>
+            <p>
+              <a href="https://owasp.org/www-project-web-security-testing-guide/" class="text-reset" target="_blank">OWASP</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> Cairo, Nasr City , Egypt</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+                danialjackob@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> +2 0122 570 3515</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">ElPentester</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+            </div>
+        </div>
+    </div>
+
+<!-- end footer section  -->
+
+    <!-- i won't use all of those plugins but i put them to complete the files if i need in the future -->
+        <!-- fontawesome js scripts -->
+    <script src="js/all fontawesome.min.js"></script>
+        <!-- wow js scripts  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        </script>
+        <!-- bootstrap jquery scripts -->
+    <script src="js/jquery.slim.min.js"></script>
+        <!-- bootstrap popper scripts -->
+    <script src="js/popper.min.js"></script>
+        <!-- bootstrap bootstrap scripts -->
+    <script src="js/bootstrap.min.js"></script>
+        <!-- mdbootstrap mdbootstrap scripts -->
+    <script src="js/mdb.umd.min.js"></script>
+        <!-- main js file -->
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.mine img{
+    height: 650px;
+    width: 100% !important;
+}
+
+@media (max-width: 576px){
+    .mine img{
+        height: 300px;
+        width: 100% !important;
+    }
+    .footer{
+        background-color: rgb(49, 48, 48) !important;
+        color: white !important;
+    }
+}
